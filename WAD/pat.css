@@ -1,0 +1,28 @@
+/* #login{
+    display: flex;
+    justify-content: flex-start;
+    width:fit-content;
+    height: fit-content;
+    border:25px;
+}
+.form{
+    border: 10px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    border: 2px solid black;
+    padding: 25px;
+
+}
