@@ -1,0 +1,899 @@
+/* h3{
+    color: brown;
+}
+p{
+    color: plum;
+    background-color: black;
+}
+button{
+    color: blueviolet;
+    background-color: burlywood;
+}
+body{
+    background-color:#ff00ff;
+} */
+/* rgb(255,0, 0) , #ff0000-red
+rgb(0, 255, 0) , #00ff00-green
+rgb(0, 0, 255) , #0000ff-blue
+rgb(255, 255, 255) , #ffffff-white
+rgb(0, 0, 0) , #000000-black 
+rgb(255, 255, 0) , #ffff00-yellow
+rgb(0, 255, 255) , #00ffff-light blue
+rgb(255, 0, 255) , #ff00ff-pink */
+
+/* universal selector */
+/* *{
+    color: #ff00ff;
+} */
+/* element selector */
+/* h3{
+    color: brown;
+} */
+/* ID selector */
+/* #id1{
+    color: brown;
+} */
+/* Class selector */
+/* .c1{
+    color: blueviolet;
+} */
+
+
+/* Text properties */
+/* h1{
+    text-align: left;
+}
+h2{
+    text-align: right;
+}
+h3{
+    text-align: center;
+}
+#id1{
+    text-align: start;
+}
+#id2{
+    text-align: end;
+} */
+
+
+/* Text Decoration */
+/* h1{
+    text-decoration: underline;
+}
+h2{
+    text-decoration: overline;
+}
+h3{
+    text-decoration: line-through;
+}
+h4{
+    text-decoration: red wavy underline;
+}
+p{
+    text-decoration: green dotted underline;
+}
+a{
+    text-decoration: none;
+} */
+
+
+/* Font Weight-100 to 900 (normal,lighter,bold,bolder) */
+/* #id1{
+    font-weight: normal;
+}
+#id2{
+    font-weight: lighter;
+}
+#id3{
+    font-weight: bold;
+}
+#id4{
+    font-weight: bolder;
+} */
+
+/* Font Family - can give one style or multiple styles(if one style fails other works)*/
+/* #id201{
+    font-family: arial;
+
+}
+#id202{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/*Font Size-units */
+/* #id301{
+    font-size: 25px;
+}
+#id302{
+    font-size: small;
+}
+#id303{
+    font-size:large;
+} */
+
+/*Line Height */
+/* #id401{
+    line-height: 60px;
+} */
+
+/* Text Transform */
+/* #id501{
+    text-transform: capitalize;
+} */
+
+
+/* Height and Width*/
+/* div{
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+}
+h1{
+    width: 200px;
+    height: 50px;
+    background-color: chartreuse;
+} */
+
+/* Border */
+/* h1 {
+    width: 200px;
+    height: 50px;
+    background-color: chartreuse;
+    border: 7px solid black;
+    text-align: center;
+}
+
+div {
+    width: 400px;
+    height: 100px;
+    background-color: gray;
+    border-width: 6px;
+    border-style: dashed;
+    border-color: yellow;
+} */
+
+/* Border-radius - both height and width are equal and radius set 50% - circle */
+
+/* div {
+    width: 400px;
+    height: 100px;
+    background-color: gray;
+    border: 5px solid purple;
+    border-radius: 10px;
+} */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 5px solid purple;
+    border-radius: 50%;
+} */
+
+/* Padding */
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 5px solid purple;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+} */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 5px solid purple;
+    padding: 50px;
+
+} */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 5px solid purple;
+    padding: 1px 2px 3px 4px;
+
+} */
+
+/* Margin */
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 5px solid purple;
+    padding: 50px;
+    margin: 25px;
+} */
+
+/* Display property */
+/* INLINE : takes only space requied (no margin/padding)
+BLOCK : takes full space avaiable in width
+INLINE - BLOCK : similar to inline but we can set margin and padding
+NONE : to remove element from document flow(no space reserved) */
+
+
+/* convert block element to inline -occupy requied area*/
+/* div{
+    background-color: pink;
+    display: inline;
+} */
+
+/* convert inline element to block -occupy full line space*/
+/* button{
+    display: block;
+} */
+
+/* div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+} */
+
+/* #box2{
+    display: none;
+} */
+
+/* Visibility - remove the element but reserves the space*/
+/* #box2{
+    visibility: hidden;
+} */
+
+/* Alpha channel - Opacity(0-1) */
+
+/* div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#box1{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+#box2{
+    background-color: rgba(0, 0, 255, 0.75);
+}
+#box3{
+    background-color: rgba(0, 0, 255, 1);
+} */
+
+/* Units - Relative(changes) */
+/* % */
+/* #box1{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+}
+#box2{
+    height: 50px;
+    width: 30%;
+    background-color: blueviolet;
+    margin-left: 10%;
+} */
+
+/* em - 2em-two times of parent's font size , 0.5 half of parent's font size */
+/* #box1 {
+    height: 100px;
+    width: 200px;
+    background-color: cadetblue;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: blueviolet;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5em;
+} */
+
+/* rem - root em  multiple of outer element px  */
+/* #box1 {
+    height: 100px;
+    width: 200px;
+    background-color: cadetblue;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: blueviolet;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5rem;
+} */
+
+/* vh and vw */
+/* #box1 {
+    height: 100px;
+    width: 200px;
+    background-color: cadetblue;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 100vh;
+    width: 30%;
+    background-color: blueviolet;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 100vh;
+} */
+
+/* Position */
+
+/* static - default position (The top, right, bottom, left, and z-index properties have no effect)  
+relative - element is relative to itself. (The top, right, bottom, left, and z-index will work)
+absolute - positioned relative to its closest positioned ancestor. (removed from flow)
+fixed - positioned relative to browser. (removed from flow)
+sticky - position based on user's scroll position  */
+
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+} */
+/* #box1{
+    position: static;
+}
+#box2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+#box3{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+#box4{
+    position: fixed;
+    top:0;
+} */
+
+/* #box1 {
+    position: static;
+}
+
+#box2 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+#box3 {
+    position: sticky;
+    top: 0px;
+    left: 20px;
+}
+
+#box4 {
+    position: fixed;
+    top: 0;
+} */
+
+/* Z - Index -decides the stack level of elements (which block should be up or down) up=1 , down=-1 , auto(0)-normal*/
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#b1{
+    position: static;
+}
+#b2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+}
+#b3{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+#b4{
+    position: fixed;
+    top:50;
+ }*/
+ 
+ /* Background image  and size*/
+
+/* cover - doesnt leaves any gaps 
+contain - fit image visible 
+auto - defalut image */
+
+/* div {
+     height: 100px;
+     width: 100px;
+     background-color: aqua;
+     border: 2px solid black;
+     display: inline-block;
+     
+ } */
+/* #b1{
+    background-image: url("HelloFolder/original.jpg");
+    background-size: cover;
+} */
+
+/* body{
+    background-image: url("HelloFolder/original.jpg");
+    background-size: cover;
+} */
+
+/* #b1{
+    background-image: url("HelloFolder/original.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+/* #b1 {
+    background-image: url("HelloFolder/original.jpg");
+    background-size: auto;
+} */
+
+
+/* FlexBox */
+
+/* Flexbox Direction 
+
+It sets how flex items are placed in the flex container,along which axis and direction. 
+flex-direction: row;(default) , mainaxis=row(left to right)
+flex-direction: row-reverse; mainaxis=row(right to left)
+flex-direction: column;
+flex-direction: column-reverse; */
+
+/* body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+}
+#box3{
+    background-color: yellow;
+}
+#box4{
+    background-color: chocolate;
+}
+#box5{
+    background-color: blue;
+} */
+
+/*Flex Container */
+
+/* justify-content: alignment along the main axis. flex-start/flex-end/centre/space-evenly/ 
+flex-wrap: nowrap/wrap/wrap-reverse
+align-items: alignment along the cross axis. align-content: alignment of space between & around the content  */
+
+/* body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: pink;
+    height: 200px;
+}
+
+#box3 {
+    background-color: yellow;
+    height: 75px;
+}
+
+#box4 {
+    background-color: chocolate;
+}
+
+#box5 {
+    background-color: blue;
+} */
+
+/* Flex Item  */
+
+/* align-self: alignment of individual along the cross axis.
+flex-grow: how much a flex item will grow relative to the rest of the flex items if space is available
+flex-shrink:how much a flex item will shrink relative to the rest of the space is available */
+
+/* body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+} */
+
+/* #container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: pink;
+    height: 200px;
+}
+
+#box3 {
+    background-color: yellow;
+    height: 75px;
+}
+
+#box4 {
+    background-color: chocolate;
+}
+
+#box5 {
+    background-color: blue;
+    align-self: flex-end;
+} */
+
+/* #container {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+#box1 {
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+#box2 {
+    background-color: pink;
+    height: 200px;
+    flex-grow: 2;
+}
+
+#box3 {
+    background-color: yellow;
+    height: 75px;
+}
+
+#box4 {
+    background-color: chocolate;
+}
+
+#box5 {
+    background-color: blue;
+} */
+
+
+/* Media Queries */
+/* max-width-smaller
+min-width-greater
+width-exact width point */
+
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+@media (width:600px) {
+    div{
+        background-color: blue;
+    }
+    
+}
+@media (min-width:600px) {
+    div{
+        background-color: green;
+    }
+    
+}
+@media (max-width:600px) {
+    div {
+        background-color: black;
+    }
+
+}
+@media (min-width:200px) and (max-width:300px) {
+    div {
+        background-color: purple;
+    }
+
+} */
+
+/* Transitions  */
+/* Transitions enable you to define the transition between two states of an element. 
+
+transition-property: property you want to transition (font-size, width etc.) transition-duration: 2s/4ms (time to takes place transition)
+transition-timing-function: ease-in / ease-out / linear / steps (different styles)
+transition-delay: 2s/4ms..(wait and starts) */
+        /* transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: steps(3);
+        transition-delay: 1s; */
+
+/* div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: aqua;
+    transition: all 2s ease-in 1s;
+  
+}
+div:hover{
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 20px;
+}
+div:active{
+    background-color: palevioletred;
+} */
+
+/* CSS Transform -apply 2D & 3D transformation to an element */
+
+/* Rotate */
+/* div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+    transform: rotate(45deg);
+}
+
+div:hover {
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 20px;
+}
+
+div:active {
+    background-color: palevioletred;
+} */
+
+/* scale - increase or decrease  */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+    transition: all 2s ease-in;
+}
+
+div:hover {
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 20px;
+    transform: scale(2);
+}
+
+div:active {
+    background-color: palevioletred;
+} */
+
+/* Translate - can be both +&- x and y axis [transform: translateX(-50px);] , [transform: translateY(-50px);
+]*/
+
+/* div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+    transition: all 2s ease-in;
+}
+
+div:hover {
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 20px;
+    transform: translate(100px,80px);
+    transform: skew(90deg);
+}
+
+div:active {
+    background-color: palevioletred;
+} */
+
+/* skew  */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+    transition: all 2s ease-in;
+}
+
+div:hover {
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 20px;
+    transform: skew(45deg);
+}
+
+div:active {
+    background-color: palevioletred;
+} */
+
+/* Animation Properties */
+
+/* animation-name 
+animation-duration : time it lasts
+animation-timing-function : comes fast/slow/steps
+animation-delay: after how much time
+animation-iteration-count : how many time iteration takes places 
+animation-direction -normal(forward each cycle) , reverse (to-from) , alternate(to-form & from - to) , alternate-reverse*/
+
+
+
+/*SHORTHAND - animation: colorAnime 2s ease-in 0s infinite normal; */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+    animation-name: colorAnime ;
+    animation-duration:0.25s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorAnime {
+    from {background-color: aqua;}
+    to {background-color: crimson;}
+    
+} 
+div:hover {}
+*/
+
+/* animation-direction */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+    animation: colorAnime 2s ease-in 1s infinite normal;
+}
+@keyframes colorAnime {
+    from {
+        left: 0px; 
+        background-color: yellow;
+    }
+    to {
+        left: 200px;
+        background-color: red;
+        color: white;
+    }
+    
+}
+div:hover{
+} */
+
+
+/* % in Animation - 0 ,50,100% (any percentage)*/
+
+/* div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+    animation: colorAnime 2s ease-in 1s infinite normal;
+}
+
+@keyframes colorAnime {
+    0% {
+        left: 0px;
+        background-color: yellow;
+    }
+    50%{
+        background-color:blue ;
+    }
+
+    100% {
+        left: 200px;
+        background-color: red;
+        color: white;
+    }
+
+}
+
+div:hover {} */
+
+
+
+
+
+
+
+
+
+
+
+
+

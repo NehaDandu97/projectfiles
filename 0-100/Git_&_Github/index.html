@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & Github</title>
+</head>
+
+<body>
+    <h1>Git & Github</h1>
+    <pre>
+    Git
+    
+        Version Control System is a tools that helps to track changes in code
+        
+        Git is a Version Control System. It is :
+        
+        popular
+        
+        free & Open Source
+        
+        fast & scalable
+
+        Helps: 
+        Track the history
+        collaborate
+    </pre>
+
+    <pre>
+    Github
+        
+        Website that allows developers to store and manage their code using Git.
+        
+        older (Repository)
+        
+        https://github.com
+    </pre>
+    <pre>
+    Github Account
+            <li>create a new Repository :name-demo</li>
+            <li>make our first commit(add->change(commit))</li>
+    README is used to describe the project name , functionalities and features. changes in README needs HTML skills
+
+    After every change it gets updated
+    </pre>
+    <pre>
+    Configuring Git (in git bash)
+        
+        git config --global user.name "My Name"
+        
+        git config --global user.email "someone@email.com"
+        
+        git config --list
+
+
+        home@LAPTOP-B6F24T9A MINGW64 ~
+        $ git config --global user.name "Nehadandu97"
+        
+        home@LAPTOP-B6F24T9A MINGW64 ~
+        $ git config --global user.mail "nehayadav93477@gmail.com"
+        
+        home@LAPTOP-B6F24T9A MINGW64 ~
+        $ git config --list
+        diff.astextplain.textconv=astextplain
+        filter.lfs.clean=git-lfs clean -- %f
+        filter.lfs.smudge=git-lfs smudge -- %f
+        filter.lfs.process=git-lfs filter-process
+        filter.lfs.required=true
+        http.sslbackend=openssl
+        http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+        core.autocrlf=true
+        core.fscache=true
+        core.symlinks=false
+        pull.rebase=false
+        credential.helper=manager
+        credential.https://dev.azure.com.usehttppath=true
+        init.defaultbranch=main
+        filter.lfs.clean=git-lfs clean -- %f
+        filter.lfs.smudge=git-lfs smudge -- %f
+        filter.lfs.process=git-lfs filter-process
+        filter.lfs.required=true
+        user.name=Nehadandu97
+        user.email=nehayadav93477@gmail.com
+        user.mail=nehayadav93477@gmail.com
+    Clone & Status
+    
+    Clone -
+    
+    Cloning a repository on our local machine
+    
+    git clone -some link-
+    
+    status - displays the state of the code
+    
+    git status
+
+    remote(files in github)->local(laptop/pc)
+    copying repo into system we use clone
+
+    untracked
+    new files that git doesn't yet track
+    
+    modified
+    changed
+    
+    staged
+    file is ready to be committed
+    
+    unmodified
+    unchanged
+
+
+
+    change(modified)/newfile(untracked) need to add(staged)  next step is commit(unchanged) git tool screenshot 
+
+    Add & Commit
+    
+    add-adds new or changed files in your working directory to the Git staging area.
+    
+        git add - file name -
+    
+    commit - it is the record of change
+    
+        git commit -m "some message"
+
+    Push Command
+    
+    push - upload local repo content to remote repo
+    
+    git push origin main
+
+
+    Init Command
+    
+    init used to create a new git repo
+    
+    git init
+    
+    git remote add origin - link -
+    
+        git remote -v (to verify remote)-name in github (localrepo)
+    
+        git branch (to check branch)-main(default)
+    
+        git branch -M main (to rename branch)
+    
+        git push origin main(master)
+
+        git push -u origin master
+
+    git workflow
+
+    Github -> clone ->changes -> add -> commit ->
+    push 
+
+    git branches 
+
+    Branch Commands
+    git branch (to check branch)
+
+    git branch -M main (to rename branch)
+
+    git checkout - branch name (to navigate)
+
+    git checkout -b - new branch name (to create new branch) 
+    git branch -d -branch name- (to delete branch)
+
+
+    Merging Code
+    
+    Way 1
+    
+    git diff - branch name-(to compare commits, branches, files & more)
+    
+    git merge - branch name->(to merge 2 branches)
+    
+    Way 2
+    
+    Create a PR(pull request)
+
+    Pull Request
+    
+    It lets you tell others about changes you've pushed to a branch in a repository on GitHub.
+
+    Pull Command
+    
+    git pull origin main
+    
+    used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+    Resolving Merge Conflicts
+    
+    An event that takes place when Git is unable to automatically resolve differences in code between two commits.
+
+    Resolving Merge Conflicts
+    
+    An event that takes place when Git is unable to automatically resolve differences in code between two commits.
+    Undoing Changes
+    
+    Case 1: staged changes
+    
+    git reset - file name ->
+    
+        git reset
+    
+        Case 2:
+    
+        commited changes (for one commit)
+    
+        git reset HEAD-1
+    
+        Case 3:
+    
+        commited changes (for many commits)
+    
+        git reset - commit hash ->
+    
+        git reset --hard - commit hash ->
+
+        Fork
+        
+        A fork is a new repository that shares code and visibility settings with the original "upstream" repository.
+        
+        Fork is a rough copy
+
+    </pre>
+    
+</body>
+
+</html>

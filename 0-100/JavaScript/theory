@@ -1,0 +1,67 @@
+What is JavaScript?
+
+JS is a programming language. We use it to give instructions to the computer.
+
+input(code)->computer->output
+
+Our 1st JS Code
+
+Console.log is used to log (print) a message to the console
+
+console.log("Apna College");
+
+create a html file and connect JavaScript to it 
+
+inspect the browser and go to console to see your code output
+
+variables in JS
+
+variables are containers for data
+
+In console - age=24 #24
+             age #24
+             age+1#25
+
+             name="tony shark" #tony shark
+
+             price=150.50 #150.5
+
+             x=null # know wt is inside but its empty
+
+             y=undefined # dont know wt is inside it
+
+Js is dynamically typed langauage - doesnt need to specify its type in advanced like java or c
+
+Variable Rules
+
+* Variable names are case sensitive; "a" & "A" is different.(ex-FullName and fullName are different )
+
+* Only letters(fullname), digits(fn123), underscore(f_n)(_fn) and $ is allowed. (not even space)
+
+* Only a letter, underscore(_) or $ should be 1st character.
+
+* Reserved words cannot be variable names.
+
+let, const & var
+
+* var: Variable can be re-declared & updated. A global scope variable.
+
+* let: Variable cannot be re-declared but can be updated. A block scope variable.
+cannot define let more than once in a block of code
+
+* const: Variable cannot be re-declared or updated. A block scope variable.
+const cannot be modified but in collection of values const obj->key can be modifies 
+
+Data Types in JS
+
+Number, String, Boolean, Undefined, Null, BigInt, Symbol
+
+typeof variable_name; # to check type of variable
+
+* Primitive (7)
+
+* Non-primitive - Objects(arrays,functions)-collection of values
+ex- student -> name(string)
+               age(number)
+               marks(number)
+               ispass(boolean)

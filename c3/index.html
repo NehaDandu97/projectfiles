@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            background-color: rgb(255, 174, 0);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2%;
+            margin: 0 1%;
+        }
+
+        .main-card {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: fit-content;
+            height: 100vh;
+            background-color: rgb(255, 255, 255);
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 2%;
+
+        }
+
+        .new-tag {
+            position: absolute;
+            top: 10px;
+            left: -23px;
+            background-color: rgb(255, 201, 50);
+            color: rgb(0, 0, 0);
+            width: 100px;
+            height: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: 900;
+            transform: rotate(-45deg);
+            text-align: center;
+            padding: auto;
+        }
+
+        .sub-main-div {
+            background-color: rgba(0, 255, 255, 0.117);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            height: 25%;
+            padding: 0px auto;
+
+        }
+
+        .company-heading {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 900;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .desc-head {
+            font-size: 2rem;
+            font-weight: 900;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .desc-price {
+            font-size: 4rem;
+            font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .desc-cond {
+            font-size: 1.2rem;
+            font-weight: 300;
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+        }
+
+        .main-description {
+            margin-top: 0%;
+        }
+
+        .main-para {
+            font-size: 1.2rem;
+            font-weight: 200;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.5rem;
+        }
+
+        .know-btn {
+            background-color: rgb(243, 250, 255);
+            color: blue;
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding: 0.5rem;
+        }
+
+        .know-btn:hover {
+            background-color: rgb(218, 237, 249);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-card">
+            <p class="new-tag">New</p>
+            <div>
+                <h2 class="company-heading">Private Limited <br> Company</h2>
+            </div>
+            <div class="sub-main-div">
+                <div>
+                    <h3 class="desc-head">Starting</h3>
+                </div>
+                <div>
+                    <h1 class="desc-price">&#8377 999</h1>
+                </div>
+                <div>
+                    <p class="desc-cond">+Govt Fee</p>
+                </div>
+            </div>
+            <div class="main-description">
+                <p class="main-para">
+                    The default option for start-ups and growing businesses as only private limited companies can raise
+                    venture capital. This type of company offers limited liability for its shareholders with certain
+                    restrictions placed on the ownership. Private limited company registration, directors may be
+                    different from shareholders.
+
+                </p>
+            </div>
+            <div>
+                <a href="#">Know More</a>
+            </div>
+        </div>
+        <div class="main-card">
+            <div>
+                <h2 class="company-heading">Private Limited <br> Company</h2>
+            </div>
+            <div class="sub-main-div">
+                <div>
+                    <h3 class="desc-head">Starting</h3>
+                </div>
+                <div>
+                    <h1 class="desc-price">&#8377 999</h1>
+                </div>
+                <div>
+                    <p class="desc-cond">+Statutory Fees</p>
+                </div>
+            </div>
+            <div class="main-description">
+                <p class="main-para">
+                    LLP was introduced to provide a form of business that is easy to maintain and to help owners by
+                    providing them with limited liability. Limited Liability Partnership Registration combines the
+                    benefits of a partnership with that of a limited liability company.
+
+                </p>
+            </div>
+            <div>
+                <a href="#">Know More</a>
+            </div>
+        </div>
+        <div class="main-card">
+            <div>
+                <h2 class="company-heading">Private Limited <br> Company</h2>
+            </div>
+            <div class="sub-main-div">
+                <div>
+                    <h3 class="desc-head">Starting</h3>
+                </div>
+                <div>
+                    <h1 class="desc-price">&#8377 5998</h1>
+                </div>
+                <div>
+                    <p class="desc-cond" style="color: black;">*All inclusive</p>
+                </div>
+            </div>
+            <div class="main-description">
+                <p class="main-para">
+                    The best structure for solo entrepreneurs looking beyond the opportunities a sole proprietorship
+                    affords. Here, a single promoter gains full authority over the company, restricting his/her
+                    liability towards their contributions to the enterprise. The said person will be the sole
+                    shareholder and director.
+
+                </p>
+            </div>
+            <div>
+                <a href="#">Know More</a>
+            </div>
+        </div>
+        <div class="main-card">
+            <div>
+                <h2 class="company-heading">Private Limited <br> Company</h2>
+            </div>
+            <div class="sub-main-div">
+                <div>
+                    <h3 class="desc-head">Starting</h3>
+                </div>
+                <div>
+                    <h1 class="desc-price">&#8377 999</h1>
+                </div>
+                <div>
+                    <p class="desc-cond">+Statutory Fees</p>
+                </div>
+            </div>
+            <div class="main-description">
+                <p class="main-para">
+                    LA business structure in which two or more individuals manage a business per the terms in
+                    Partnership Deed. It's best suitable for home businesses that are unlikely to take any debt due to
+                    low cost, ease of setting up and minimal compliance requirements.
+
+                </p>
+            </div>
+            <div>
+                <a href="#">Know More</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

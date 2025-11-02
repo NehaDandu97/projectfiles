@@ -1,0 +1,197 @@
+/* #box{
+    background-color: blue;
+} */
+
+/* #id1{
+    color: brown;
+} */
+
+/* .heading{
+    color: red;
+} */
+
+/* h1,h2,h3{
+    color: brown;
+} */
+
+/* button{
+    background-color: green;
+} */
+
+/* h1{
+    text-align: center;
+    text-transform: uppercase;
+} */
+
+/* *{
+    font-family: 'Times New Roman';
+} */
+
+/* #outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+button{
+    background-color: #f08804;
+} */
+
+/* #navbar {
+    height: 60px;
+    background-color: black;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+button {
+    background-color: #f08804;
+}
+
+.boxcontent {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#content{
+    height: 650px;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-image: url("Bts.png");
+    position: fixed;
+    right: 0px;
+    top: 25px;
+    background-size: cover;
+    color: white;
+} */
+
+/* .navbar{
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+li{
+    list-style-type: none;
+} */
+
+/* .outer{
+    height: 400px;
+    width: 400px;
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: plum;  
+} */
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+@media (max-width:300px) {
+    div{
+        background-color: green;
+    }
+    
+}
+@media (min-width:300px) and (max-width:400px){
+    div {
+        background-color: pink;
+    }
+
+}
+@media (min-width:400px) and (max-width:600px) {
+    div {
+        background-color: red;
+    }
+
+}
+@media (min-width:600px) {
+    div {
+        background-color: blue;
+    }
+
+} */
+
+
+/* .loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid yellow;
+    border-top: 20px solid greenyellow;
+    animation: spinAnime 2s ease-in-out 0s infinite normal;
+}
+@keyframes spinAnime {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+} */
+
+
+
+
+
+
+
+
+
+
